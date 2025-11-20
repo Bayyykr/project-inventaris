@@ -68,9 +68,5 @@ Fitur utama:
 
 
 
-\## 👤 Author
-
-Nama Kamu – Tahun Pembuatan
-
 
 
