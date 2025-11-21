@@ -15,6 +15,7 @@ include __DIR__ . '/../layouts/sidebar.php';
 
     <div class="user-content-card">
         <div class="user-card-header">
+            <h4 class="mt-2">Daftar User</h4>
             <div class="user-search-box">
                 <i class="bi bi-search"></i>
                 <input type="text" class="user-search-input" placeholder="Cari user..." id="searchUser">
@@ -87,7 +88,7 @@ include __DIR__ . '/../layouts/sidebar.php';
                         </td>
                         <td class="user-email-text">bob@example.com</td>
                         <td class="user-role-text">Manager</td>
-                        <td><span class="user-status-badge user-status-active">active</span></td>
+                        <td><span class="user-status-badge user-status-inactive">inactive</span></td>
                         <td>
                             <div class="user-action-btns">
                                 <button class="user-btn-icon user-btn-edit" data-bs-toggle="modal" data-bs-target="#addUserModal" title="Edit">

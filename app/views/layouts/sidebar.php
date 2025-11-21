@@ -8,35 +8,35 @@
         <span>Inventori</span>
     </div>
     <div class="sidebar-content">
-        <div class="menu-item active" data-tooltip="Dashboard">
+        <div class="menu-item active" data-tooltip="Dashboard" onclick="window.location.href='<?= BASE_URL ?>/dashboard'">
             <i class="bi bi-grid"></i>
             <span>Dashboard</span>
         </div>
 
         <p class="title-item">Data Master</p>
-        <div class="menu-item" data-tooltip="Data User">
+        <div class="menu-item" data-tooltip="Data User" onclick="window.location.href='<?= BASE_URL ?>/users'">
             <i class="bi bi-people"></i>
             <span>Data User</span>
         </div>
-        <div class="menu-item" data-tooltip="Data Supplier">
+        <div class="menu-item" data-tooltip="Data Supplier" onclick="window.location.href='<?= BASE_URL ?>/supplier'">
             <i class="bi bi-truck"></i>
             <span>Data Supplier</span>
         </div>
-        <div class="menu-item" data-tooltip="Data Barang">
+        <div class="menu-item" data-tooltip="Data Barang" onclick="window.location.href='<?= BASE_URL ?>/barang'">
             <i class="bi bi-box"></i>
             <span>Data Barang</span>
         </div>
 
         <p class="title-item">Manajemen Stok</p>
-        <div class="menu-item" data-tooltip="Stock In">
+        <div class="menu-item" data-tooltip="Stock In" onclick="window.location.href='<?= BASE_URL ?>/stokin'">
             <i class="bi bi-arrow-down-left"></i>
             <span>Stock In</span>
         </div>
-        <div class="menu-item" data-tooltip="Stock Out">
+        <div class="menu-item" data-tooltip="Stock Out" onclick="window.location.href='<?= BASE_URL ?>/stokout'">
             <i class="bi bi-arrow-up-right"></i>
             <span>Stock Out</span>
         </div>
-        <div class="menu-item" data-tooltip="History">
+        <div class="menu-item" data-tooltip="History" onclick="window.location.href='<?= BASE_URL ?>/history'">
             <i class="bi bi-clock-history"></i>
             <span>History</span>
         </div>
