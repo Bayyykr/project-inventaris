@@ -29,7 +29,7 @@
 }
 
 .history-btn-add {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
   border: none;
   padding: 0.625rem 1.25rem;
@@ -44,7 +44,7 @@
 }
 
 .history-btn-add:hover {
-  background: #2c5aa0;
+  background: #e11d48;
   transform: translateY(-1px);
 }
 
@@ -102,8 +102,8 @@
 
 .history-search-input:focus {
   outline: none;
-  border-color: #3182ce;
-  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+  border-color: #fb7185;
+  box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.12);
   background: white;
 }
 
@@ -180,7 +180,7 @@
 }
 
 .history-period-option.active {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
 }
 
@@ -210,13 +210,13 @@
 .history-month-select:focus,
 .history-year-select:focus {
   outline: none;
-  border-color: #3182ce;
-  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+  border-color: #fb7185;
+  box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.12);
   background: white;
 }
 
 .history-filter-btn {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
   border: none;
   padding: 0.625rem 1.25rem;
@@ -233,7 +233,7 @@
 }
 
 .history-filter-btn:hover {
-  background: #2c5aa0;
+  background: #e11d48;
   transform: translateY(-1px);
 }
 
@@ -288,7 +288,7 @@
 }
 
 .history-type-in {
-  background: #37abe6;
+  background: #fb7185;
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
@@ -297,8 +297,8 @@
 }
 
 .history-type-out {
-  background: #f1f5f9;
-  color: black;
+  background: rgba(251, 113, 133, 0.12);
+  color: #e11d48;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
   font-size: 0.75rem;
@@ -367,8 +367,8 @@
 }
 
 .history-pagination-btn:hover:not(:disabled) {
-  background: #f1f5f9;
-  border-color: #cbd5e0;
+  background: rgba(251, 113, 133, 0.12);
+  border-color: #fb7185;
 }
 
 .history-pagination-btn:disabled {
@@ -392,17 +392,16 @@
 }
 
 .history-pagination-page:hover {
-  background: #f1f5f9;
-  border-color: #cbd5e0;
+  background: rgba(251, 113, 133, 0.12);
+  border-color: #fb7185;
 }
 
 .history-pagination-page.active {
-  background: #3182ce;
-  border-color: #3182ce;
+  background: #fb7185;
+  border-color: #fb7185;
   color: white;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .history-filter-container {
     flex-wrap: wrap;

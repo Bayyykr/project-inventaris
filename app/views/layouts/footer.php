@@ -16,15 +16,6 @@
         }
     }
 
-    document.querySelectorAll('.menu-item').forEach(item => {
-        item.addEventListener('click', function() {
-            if (!this.classList.contains('has-submenu')) {
-                document.querySelectorAll('.menu-item').forEach(i => i.classList.remove('active'));
-                this.classList.add('active');
-            }
-        });
-    });
-
     window.addEventListener('resize', function() {
         const sidebar = document.getElementById('sidebar');
         const toggle = document.getElementById('sidebarToggle');

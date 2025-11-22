@@ -1,12 +1,14 @@
 <?php
 
 use App\Config\Router;
+use App\Controllers\AuthController;
 use App\Controllers\BarangController;
 use App\Controllers\DashboardController;
 use App\Controllers\StokController;
 use App\Controllers\SupplierController;
 use App\Controllers\UserController;
 
+Router::add('GET', '/login', AuthController::class, 'login');
 Router::add('GET', '/dashboard', DashboardController::class, 'index');
 Router::add('GET', '/users', UserController::class, 'index');
 Router::add('GET', '/supplier', SupplierController::class, 'index');

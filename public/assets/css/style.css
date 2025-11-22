@@ -47,7 +47,7 @@ body {
 
 .sidebar-header i {
   font-size: 28px;
-  color: #3b82f6;
+  color: #fb7185;
   min-width: 28px;
 }
 
@@ -118,8 +118,8 @@ body {
 }
 
 .menu-item:hover {
-  background-color: rgba(59, 130, 246, 0.1);
-  color: #3b82f6;
+  background-color: rgba(251, 113, 133, 0.12);
+  color: #fb7185;
 }
 
 .sidebar.collapsed .menu-item {
@@ -130,7 +130,7 @@ body {
   content: attr(data-tooltip);
   position: absolute;
   left: 70px;
-  background: #1f2937;
+  background: #4d1018;
   color: white;
   padding: 8px 12px;
   border-radius: 6px;
@@ -148,8 +148,8 @@ body {
 }
 
 .menu-item.active {
-  background-color: rgba(59, 130, 246, 0.15);
-  color: #3b82f6;
+  background-color: rgba(251, 113, 133, 0.18);
+  color: #fb7185;
   font-weight: 500;
 }
 
@@ -160,7 +160,7 @@ body {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #3b82f6;
+  background-color: #fb7185;
 }
 
 .main-content {
@@ -208,7 +208,7 @@ header {
 }
 
 .sidebar-toggle:hover {
-  background: #f3f4f6;
+  background: rgba(168, 50, 65, 0.12);
 }
 
 .sidebar-toggle.collapsed {

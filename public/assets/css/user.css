@@ -29,7 +29,7 @@
 }
 
 .user-btn-add {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
   border: none;
   padding: 0.625rem 1.25rem;
@@ -44,7 +44,7 @@
 }
 
 .user-btn-add:hover {
-  background: #2c5aa0;
+  background: #e11d48;
   transform: translateY(-1px);
 }
 
@@ -168,7 +168,7 @@
 }
 
 .user-status-active {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
 }
 
@@ -200,7 +200,7 @@
 }
 
 .user-btn-edit:hover {
-  color: #3182ce;
+  color: #fb7185;
 }
 
 .user-btn-delete:hover {
@@ -246,8 +246,8 @@
 }
 
 .user-pagination-btn:hover:not(:disabled) {
-  background: #f1f5f9;
-  border-color: #cbd5e0;
+  background: rgba(251, 113, 133, 0.12);
+  border-color: #fb7185;
 }
 
 .user-pagination-btn:disabled {
@@ -271,13 +271,13 @@
 }
 
 .user-pagination-page:hover {
-  background: #f1f5f9;
-  border-color: #cbd5e0;
+  background: rgba(251, 113, 133, 0.12);
+  border-color: #fb7185;
 }
 
 .user-pagination-page.active {
-  background: #3182ce;
-  border-color: #3182ce;
+  background: #fb7185;
+  border-color: #fb7185;
   color: white;
 }
 
@@ -324,8 +324,8 @@
 .user-form-input:focus,
 .user-form-select:focus {
   outline: none;
-  border-color: #3182ce;
-  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+  border-color: #fb7185;
+  box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.12);
 }
 
 .user-modal-footer {
@@ -353,7 +353,7 @@
 }
 
 .user-btn-primary {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
   border: none;
   padding: 0.625rem 1.25rem;
@@ -365,5 +365,5 @@
 }
 
 .user-btn-primary:hover {
-  background: #2c5aa0;
+  background: #e11d48;
 }

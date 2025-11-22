@@ -29,7 +29,7 @@
 }
 
 .stockout-btn-add {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
   border: none;
   padding: 0.625rem 1.25rem;
@@ -44,7 +44,7 @@
 }
 
 .stockout-btn-add:hover {
-  background: #2c5aa0;
+  background: #e11d48;
   transform: translateY(-1px);
 }
 
@@ -76,7 +76,7 @@
   gap: 1rem;
 }
 
-.stockout-search-box {
+stockout-search-box {
   position: relative;
   display: flex;
   align-items: center;
@@ -102,8 +102,8 @@
 
 .stockout-search-input:focus {
   outline: none;
-  border-color: #3182ce;
-  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+  border-color: #fb7185;
+  box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.1);
   background: white;
 }
 
@@ -180,7 +180,7 @@
 }
 
 .stockout-period-option.active {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
 }
 
@@ -210,13 +210,13 @@
 .stockout-month-select:focus,
 .stockout-year-select:focus {
   outline: none;
-  border-color: #3182ce;
-  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+  border-color: #fb7185;
+  box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.1);
   background: white;
 }
 
 .stockout-filter-btn {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
   border: none;
   padding: 0.625rem 1.25rem;
@@ -233,7 +233,7 @@
 }
 
 .stockout-filter-btn:hover {
-  background: #2c5aa0;
+  background: #e11d48;
   transform: translateY(-1px);
 }
 
@@ -348,8 +348,8 @@
 }
 
 .stockout-pagination-btn:hover:not(:disabled) {
-  background: #f1f5f9;
-  border-color: #cbd5e0;
+  background: rgba(251, 113, 133, 0.12);
+  border-color: #fb7185;
 }
 
 .stockout-pagination-btn:disabled {
@@ -373,13 +373,13 @@
 }
 
 .stockout-pagination-page:hover {
-  background: #f1f5f9;
-  border-color: #cbd5e0;
+  background: rgba(251, 113, 133, 0.12);
+  border-color: #fb7185;
 }
 
 .stockout-pagination-page.active {
-  background: #3182ce;
-  border-color: #3182ce;
+  background: #fb7185;
+  border-color: #fb7185;
   color: white;
 }
 
@@ -426,8 +426,8 @@
 .stockout-form-input:focus,
 .stockout-form-select:focus {
   outline: none;
-  border-color: #3182ce;
-  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+  border-color: #fb7185;
+  box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.1);
 }
 
 .stockout-modal-footer {
@@ -455,7 +455,7 @@
 }
 
 .stockout-btn-primary {
-  background: #3182ce;
+  background: #fb7185;
   color: white;
   border: none;
   padding: 0.625rem 1.25rem;
@@ -467,7 +467,7 @@
 }
 
 .stockout-btn-primary:hover {
-  background: #2c5aa0;
+  background: #e11d48;
 }
 
 @media (max-width: 1024px) {
